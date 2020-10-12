@@ -12,14 +12,11 @@ temperature = input ("What is the temperature?: ")
 if temperature >= a:
    print("wear shorts")
 
-
 if temperature >= b:
    print("short sleeves are fine")
 
-
 if temperature >= c:
    print("wear a jacket")
-
 
 if temperature >= d:
    print("wear a heavy coat")
