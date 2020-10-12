@@ -1,14 +1,26 @@
 temperature = "x"
+x = input
 
-print("what is the temperature?")
+a = "90"
+b = "70"
+c = "50"
+d = "30"
 
-if "x" >= str(input(90)):
-  print("Wear Shorts")
-if "x" >= str(input(70)):
-    print("Short Sleeves are Fine")
-if "x" >= str(input(50)):
-  print("Wear a Jacket")
-if "x" >= str(input(32)):
-  print("Wear a Heavy Coat")
-else:
-    print("stay inside")
+
+temperature = input ("What is the temperature?: ")
+
+if temperature >= a:
+   print("wear shorts")
+
+
+if temperature >= b:
+   print("short sleeves are fine")
+
+
+if temperature >= c:
+   print("wear a jacket")
+
+
+if temperature >= d:
+   print("wear a heavy coat")
+
