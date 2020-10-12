@@ -8,7 +8,7 @@ d = "30"
 
 temperature = input ("What is the temperature?: ")
 
-if temperature >= a:
+if temperature <= a:
    print("wear shorts")
 
 if temperature >= b:
@@ -17,6 +17,6 @@ if temperature >= b:
 if temperature >= c:
    print("wear a jacket")
 
-if temperature >= d:
+if temperature <= d:
    print("wear a heavy coat")
 
