@@ -6,7 +6,6 @@ b = "70"
 c = "50"
 d = "30"
 
-
 temperature = input ("What is the temperature?: ")
 
 if temperature >= a:
